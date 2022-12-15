@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Source+Code+Pro&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+}
+.page{
+  height:100vh;
+  background-image: url(./assets/akrem.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  height: 200px;
+  width:400px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+.heading{
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+.tel-box{
+  display: flex;
+  margin: 1rem;
+  margin-top: 0;
+}
+.select-box{
+  margin: 1rem;
+  width: 60px;
+  height: 40px;
+}
+.flag-img{
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.select-box select{
+  font-family: 'Lato', sans-serif;
+  width: 60px;
+  height: 40px;
+  background: none;
+  position: absolute;
+  border: none;
+  font-size: 1rem;
+  padding-left: 4rem;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.tel{
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 2px solid black;
+  outline: none;
+  margin: 1rem;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  color: black;
+  font-weight: thick;
+  border-radius: 5px;
+}
+.output{
+  margin: 1rem;
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-self:center;
+}
+.result{
+  font-family: 'Source Code Pro', monospace;
+  width:auto;
+  padding: 0.25rem;
+  border-radius: 5px;
+  height: 30px;
+  background-color: pink;
+  color: red;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+
+}
