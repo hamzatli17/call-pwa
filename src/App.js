@@ -788,7 +788,7 @@ export class App extends Component {
               {this.state.phone}
             </span>
             <div>
-			+{this.state.countryCodeValue}{this.state.phone}
+			
               <a href="tel:+21622944673">
                 <FaPhone size="30" className="nav-linker" />
               </a>
